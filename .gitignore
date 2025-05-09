@@ -1,1 +1,17 @@
-task2/front-end/softy-pinko-front-end/
+# Ignorer les fichiers liés à VS Code Server
+.vscode-server/
+.cache/
+holbertonschool-web_back_end
+holbertonschool-softy-pinko-docker
+holbertonschool-shell
+holbertonschool-low_level_programming-1
+holbertonschool-low_level_programming
+holbertonschool-higher_level_programming
+holbertonschool-hbnb-aurelien
+holbertonschool-hbnb
+holbertonschool-chatgpt-introduction
+holbertonschool-binary_trees
+holbertonschool-HbNb
+
+# Ignorer les fichiers de cache de vscode-cpptools
+.cache/vscode-cpptools/*/.browse.VC.db
