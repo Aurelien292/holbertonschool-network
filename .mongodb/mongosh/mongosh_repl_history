@@ -1,0 +1,107 @@
+show collections
+db.nginx.drop()
+show collections
+show logs
+show dbs
+show
+use logs
+db.school.find().pretty()
+show collections
+use my_db
+print(db.school.count())
+// displays the number of documents in the collection school
+db.school.update( { name: "Holberton school" }, /* Filtre: on cherche le document avec name = "Holberton school"*/ { $set: { address: "972 Mission street" } } /* Ajout ou mise à jour du champ address*/ )
+// update only document Holberton school
+db.school.deleteMany({ name: "Holberton school" })
+// Delete all documents in the collection
+db.school.update( { name: "Holberton school" }, /* Filtre: on cherche le document avec name = "Holberton school"*/ { $set: { address: "972 Mission street" } } /* Ajout ou mise à jour du champ address*/ )
+// update only document Holberton school
+db.school.update( { name: "Holberton school" }, /* Filtre: on cherche le document avec name = "Holberton school"*/ { $set: { address: "971 Mission street" } } /* Ajout ou mise à jour du champ address*/ )
+// update only document Holberton school
+db.school.update( { name: "Holberton school" }, /* Filtre: on cherche le document avec name = "Holberton school"*/ { $set: { address: "972 Mission street" } } /* Ajout ou mise à jour du champ address*/ )
+// update only document Holberton school
+db.school.update( { name: "Holberton school" }, /* Filtre: on cherche le document avec name = "Holberton school"*/ { $set: { address: "972 Mission street" } } /* Ajout ou mise à jour du champ address*/ )
+// update only document Holberton school
+print(db.school.count())
+// displays the number of documents in the collection school
+print(db.school.count())
+// displays the number of documents in the collection school
+print(db.school.count())
+// displays the number of documents in the collection school
+print(db.school.count())
+// displays the number of documents in the collection school
+db.school.find({ name: "Holberton school" }).forEach(printjson)
+// lists all documents with name="Holberton school" in the collection school
+db.school.update( { name: "Holberton school" }, /* Filtre: on cherche le document avec name = "Holberton school"*/ { $set: { address: "972 Mission street" } } /* Ajout ou mise à jour du champ address*/ )
+// update only document Holberton school
+db.school.find({ name: "Holberton school" }).forEach(printjson)
+// lists all documents with name="Holberton school" in the collection school
+db.school.updateOne( { name: "Holberton school" }, /* Filtre: on cherche le document avec name = "Holberton school"*/ { $set: { address: "972 Mission street" } } /* Ajout ou mise à jour du champ address*/ )
+// update only document Holberton school
+db.school.update( { name: "Holberton school" }, /* Filtre: on cherche le document avec name = "Holberton school"*/ { $set: { address: "972 Mission street" } } /* Ajout ou mise à jour du champ address*/ )
+// update only document Holberton school
+print(db.school.count())
+// displays the number of documents in the collection school
+db.school.find({ name: "Holberton school" }).forEach(printjson)
+// lists all documents with name="Holberton school" in the collection school
+db.school.find()
+//list all documents in a collection
+mongo my_db --eval 'db.school.find().forEach(printjson)'
+//list all documents in a collection
+db.school.insert({ name: "Holberton school" })
+// insert a document 
+mongod my_db --eval 'db.school.insert({ name: "Holberton school" })'
+// insert a document 
+mongosh my_db --eval 'db.school.insert({ name: "Holberton school" })'
+// insert a document 
+mongo my_db --eval 'db.school.insert({ name: "Holberton school" })'
+// insert a document 
+mongo my_db --eval 'db.school.insert({ name: "Holberton school" })'
+// insert a document 
+mongo my_db --eval 'db.school.insert({ name: "Holberton school" })'
+// insert a document 
+db.school.insertOne({ name: "Holberton school" })
+// insert a document 
+my_db --eval 'db.school.insertOne({ name: "Holberton school" })'
+// insert a document
+db.school.insertOne({ name: "Holberton school" });
+// insert a document
+show dbs
+// show database
+show dbs
+// show database
+show dbs
+// show database
+show database
+// show database
+show db
+// show database
+show dbs
+// show database
+show dbs
+// show database
+show dbs
+// show database
+show dbs
+// show database
+show dbs
+//show database
+show dbs
+//show database
+show dbs
+//show database
+use my_db
+//use database
+show dbs
+//show database
+//use database
+show dbs
+//show database
+//use database
+db.users.insert({ name: 'John Doe', age: 30, email: 'john.doe@example.com' });
+use my_db;
+use my_db
+echo "use my_db" 
+echo "use my_db" > 1-use_or_create_database
+show dbs
+//show database

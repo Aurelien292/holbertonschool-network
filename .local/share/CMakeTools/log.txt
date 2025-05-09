@@ -1,0 +1,193 @@
+2025-03-15T14:12:25.186Z [debug] [main] Safe constructing new CMakeProject instance
+2025-03-15T14:12:25.186Z [debug] [variant] Constructing VariantManager
+2025-03-15T14:12:25.187Z [debug] [main] Constructing new CMakeProject instance
+2025-03-15T14:12:25.187Z [debug] [main] Starting CMake Tools second-phase init
+2025-03-15T14:12:25.188Z [debug] [expand] expanded ${workspaceFolder}
+2025-03-15T14:12:25.191Z [debug] [kit] Not reading non-existent kits file: /home/aurelien/.local/share/CMakeTools/cmake-tools-kits.json
+2025-03-15T14:12:25.223Z [debug] [kit] Not reading non-existent kits file: /home/aurelien/.vscode/cmake-kits.json
+2025-03-15T14:12:25.287Z [info] [variant] Loaded new set of variants
+2025-03-15T14:12:25.321Z [debug] [main] CMakeProject instance initialization complete.
+2025-03-15T14:12:25.393Z [info] [kit] Detected kits definition version change from undefined to 2. Silently scanning for kits.
+2025-03-15T14:12:25.453Z [debug] [kitsController] Rescanning for kits
+2025-03-15T14:12:25.454Z [debug] [kit] Scanning for Kits on system
+2025-03-15T14:12:25.457Z [debug] [kit] Scanning directory /home/aurelien/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/bin/remote-cli for compilers
+2025-03-15T14:12:25.458Z [debug] [kit] Scanning directory /home/aurelien/.local/bin for compilers
+2025-03-15T14:12:25.458Z [debug] [kit] Scanning directory /usr/local/sbin for compilers
+2025-03-15T14:12:25.458Z [debug] [kit] Scanning directory /usr/local/bin for compilers
+2025-03-15T14:12:25.459Z [debug] [kit] Scanning directory /usr/sbin for compilers
+2025-03-15T14:12:25.459Z [debug] [kit] Scanning directory /usr/bin for compilers
+2025-03-15T14:12:25.459Z [debug] [kit] Scanning directory /sbin for compilers
+2025-03-15T14:12:25.460Z [debug] [kit] Scanning directory /bin for compilers
+2025-03-15T14:12:25.460Z [debug] [kit] Scanning directory /usr/games for compilers
+2025-03-15T14:12:25.461Z [debug] [kit] Scanning directory /usr/local/games for compilers
+2025-03-15T14:12:25.461Z [debug] [kit] Scanning directory /usr/lib/wsl/lib for compilers
+2025-03-15T14:12:25.462Z [debug] [kit] Scanning directory /mnt/c/Windows for compilers
+2025-03-15T14:12:25.463Z [debug] [kit] Scanning directory /mnt/c/Windows/system32 for compilers
+2025-03-15T14:12:25.463Z [debug] [kit] Scanning directory /mnt/c/Windows/System32/Wbem for compilers
+2025-03-15T14:12:25.463Z [debug] [kit] Skipping scan of not existing path /mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath
+2025-03-15T14:12:25.464Z [debug] [kit] Found 0 kits in directory /mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath
+2025-03-15T14:12:25.464Z [debug] [kit] Scanning directory /mnt/c/Windows/System32/OpenSSH for compilers
+2025-03-15T14:12:25.464Z [debug] [kit] Scanning directory /mnt/c/Windows/System32/WindowsPowerShell/v1.0 for compilers
+2025-03-15T14:12:25.465Z [debug] [kit] Scanning directory /mnt/c/winlibs/mingw64/bin for compilers
+2025-03-15T14:12:25.465Z [debug] [kit] Scanning directory /mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path for compilers
+2025-03-15T14:12:25.465Z [debug] [kit] Scanning directory /mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common for compilers
+2025-03-15T14:12:25.466Z [debug] [kit] Scanning directory /mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR for compilers
+2025-03-15T14:12:25.466Z [debug] [kit] Scanning directory /mnt/c/Program Files/Git/cmd for compilers
+2025-03-15T14:12:25.467Z [debug] [kit] Scanning directory /mnt/d/Program Files/nodejs for compilers
+2025-03-15T14:12:25.467Z [debug] [kit] Scanning directory /mnt/c/Users/goaoc/AppData/Local/Programs/Python/Python313 for compilers
+2025-03-15T14:12:25.468Z [debug] [kit] Scanning directory /mnt/c/Users/goaoc/AppData/Local/Programs/Python/Python313/Scripts for compilers
+2025-03-15T14:12:25.469Z [debug] [kit] Scanning directory /mnt/c/Users/goaoc/AppData/Local/Programs/Microsoft VS Code/bin for compilers
+2025-03-15T14:12:25.469Z [debug] [kit] Skipping scan of not existing path /snap/bin
+2025-03-15T14:12:25.470Z [debug] [kit] Found 0 kits in directory /snap/bin
+2025-03-15T14:12:25.470Z [debug] [kit] Skipping scan of not existing path /home/aurelien/.npm-global/bin
+2025-03-15T14:12:25.470Z [debug] [kit] Found 0 kits in directory /home/aurelien/.npm-global/bin
+2025-03-15T14:12:25.471Z [debug] [kit] Scanning directory /mnt/c/Users/goaoc/AppData/Local/Programs/Python/Launcher for compilers
+2025-03-15T14:12:25.471Z [debug] [kit] Skipping scan of not existing path undefined\LLVM\bin
+2025-03-15T14:12:25.472Z [debug] [kit] Found 0 kits in directory undefined\LLVM\bin
+2025-03-15T14:12:25.472Z [debug] [kit] Skipping scan of not existing path undefined\msys64\mingw32\bin
+2025-03-15T14:12:25.472Z [debug] [kit] Found 0 kits in directory undefined\msys64\mingw32\bin
+2025-03-15T14:12:25.473Z [debug] [kit] Scanning directory /mnt/c/Users/goaoc/AppData/Local/Microsoft/WindowsApps for compilers
+2025-03-15T14:12:25.473Z [debug] [kit] Skipping scan of not existing path undefined\msys64\clang32\bin
+2025-03-15T14:12:25.473Z [debug] [kit] Found 0 kits in directory undefined\msys64\clang32\bin
+2025-03-15T14:12:25.474Z [debug] [kit] Skipping scan of not existing path undefined\msys64\mingw64\bin
+2025-03-15T14:12:25.474Z [debug] [kit] Found 0 kits in directory undefined\msys64\mingw64\bin
+2025-03-15T14:12:25.474Z [debug] [kit] Skipping scan of not existing path undefined\msys64\clang64\bin
+2025-03-15T14:12:25.475Z [debug] [kit] Found 0 kits in directory undefined\msys64\clang64\bin
+2025-03-15T14:12:25.476Z [debug] [kit] Skipping scan of not existing path undefined\msys64\clangarm64\bin
+2025-03-15T14:12:25.477Z [debug] [kit] Found 0 kits in directory undefined\msys64\clangarm64\bin
+2025-03-15T14:12:25.477Z [debug] [kit] Skipping scan of not existing path undefined\msys64\ucrt64\bin
+2025-03-15T14:12:25.478Z [debug] [kit] Found 0 kits in directory undefined\msys64\ucrt64\bin
+2025-03-15T14:12:25.478Z [debug] [kit] Scanning directory /mnt/c/Users/goaoc/AppData/Roaming/npm for compilers
+2025-03-15T14:12:25.480Z [debug] [kit] Found 0 kits in directory /home/aurelien/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/bin/remote-cli
+2025-03-15T14:12:25.482Z [debug] [kit] Found 0 kits in directory /home/aurelien/.local/bin
+2025-03-15T14:12:25.483Z [debug] [kit] Found 0 kits in directory /usr/local/bin
+2025-03-15T14:12:25.483Z [debug] [kit] Found 0 kits in directory /usr/local/sbin
+2025-03-15T14:12:25.505Z [debug] [kit] Found 0 kits in directory /sbin
+2025-03-15T14:12:25.527Z [debug] [kit] Found 0 kits in directory /usr/sbin
+2025-03-15T14:12:25.527Z [debug] [kit] Found 0 kits in directory /usr/local/games
+2025-03-15T14:12:25.528Z [debug] [kit] Found 0 kits in directory /usr/games
+2025-03-15T14:12:25.591Z [debug] [kit] Testing GCC binary: /usr/bin/c89-gcc
+2025-03-15T14:12:25.592Z [info] [proc] Executing command: /usr/bin/c89-gcc -v
+2025-03-15T14:12:25.600Z [debug] [kit] Testing GCC binary: /usr/bin/c99-gcc
+2025-03-15T14:12:25.600Z [info] [proc] Executing command: /usr/bin/c99-gcc -v
+2025-03-15T14:12:25.620Z [debug] [kit] Testing GCC binary: /usr/bin/gcc
+2025-03-15T14:12:25.620Z [info] [proc] Executing command: /usr/bin/gcc -v
+2025-03-15T14:12:25.626Z [debug] [kit] Testing GCC binary: /usr/bin/gcc-11
+2025-03-15T14:12:25.626Z [info] [proc] Executing command: /usr/bin/gcc-11 -v
+2025-03-15T14:12:25.658Z [debug] [kit] Testing GCC binary: /usr/bin/x86_64-linux-gnu-gcc
+2025-03-15T14:12:25.659Z [info] [proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc -v
+2025-03-15T14:12:25.665Z [debug] [kit] Testing GCC binary: /usr/bin/x86_64-linux-gnu-gcc-11
+2025-03-15T14:12:25.665Z [info] [proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc-11 -v
+2025-03-15T14:12:25.681Z [debug] [kit] Testing GCC binary: /bin/c89-gcc
+2025-03-15T14:12:25.682Z [info] [proc] Executing command: /bin/c89-gcc -v
+2025-03-15T14:12:25.688Z [debug] [kit] Testing GCC binary: /bin/c99-gcc
+2025-03-15T14:12:25.688Z [info] [proc] Executing command: /bin/c99-gcc -v
+2025-03-15T14:12:25.702Z [debug] [kit] Testing GCC binary: /bin/gcc
+2025-03-15T14:12:25.703Z [info] [proc] Executing command: /bin/gcc -v
+2025-03-15T14:12:25.709Z [debug] [kit] Testing GCC binary: /bin/gcc-11
+2025-03-15T14:12:25.709Z [info] [proc] Executing command: /bin/gcc-11 -v
+2025-03-15T14:12:25.738Z [debug] [kit] Testing GCC binary: /bin/x86_64-linux-gnu-gcc
+2025-03-15T14:12:25.738Z [info] [proc] Executing command: /bin/x86_64-linux-gnu-gcc -v
+2025-03-15T14:12:25.744Z [debug] [kit] Testing GCC binary: /bin/x86_64-linux-gnu-gcc-11
+2025-03-15T14:12:25.745Z [info] [proc] Executing command: /bin/x86_64-linux-gnu-gcc-11 -v
+2025-03-15T14:12:25.755Z [debug] [kit] Found 0 kits in directory /usr/lib/wsl/lib
+2025-03-15T14:12:25.758Z [debug] [kit] Found 0 kits in directory /mnt/c/Windows
+2025-03-15T14:12:25.759Z [debug] [kit] Found 0 kits in directory /mnt/c/Windows/System32/OpenSSH
+2025-03-15T14:12:25.770Z [debug] [kit] Found 0 kits in directory /mnt/c/Windows/System32/Wbem
+2025-03-15T14:12:25.771Z [debug] [kit] Found 0 kits in directory /mnt/c/Windows/System32/WindowsPowerShell/v1.0
+2025-03-15T14:12:25.771Z [debug] [kit] Found 0 kits in directory /mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR
+2025-03-15T14:12:25.771Z [debug] [kit] Testing GCC binary: /mnt/c/winlibs/mingw64/bin/gcc.exe
+2025-03-15T14:12:25.772Z [info] [proc] Executing command: /mnt/c/winlibs/mingw64/bin/gcc.exe -v
+2025-03-15T14:12:25.784Z [debug] [kit] Testing GCC binary: /mnt/c/winlibs/mingw64/bin/x86_64-w64-mingw32-gcc-14.2.0.exe
+2025-03-15T14:12:25.784Z [info] [proc] Executing command: /mnt/c/winlibs/mingw64/bin/x86_64-w64-mingw32-gcc-14.2.0.exe -v
+2025-03-15T14:12:25.792Z [debug] [kit] Testing GCC binary: /mnt/c/winlibs/mingw64/bin/x86_64-w64-mingw32-gcc.exe
+2025-03-15T14:12:25.792Z [info] [proc] Executing command: /mnt/c/winlibs/mingw64/bin/x86_64-w64-mingw32-gcc.exe -v
+2025-03-15T14:12:25.802Z [debug] [kit] Found 0 kits in directory /mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common
+2025-03-15T14:12:25.803Z [debug] [kit] Found 0 kits in directory /mnt/c/Users/goaoc/AppData/Local/Programs/Python/Python313
+2025-03-15T14:12:25.803Z [debug] [kit] Found 0 kits in directory /mnt/d/Program Files/nodejs
+2025-03-15T14:12:25.804Z [debug] [kit] Found 0 kits in directory /mnt/c/Program Files/Git/cmd
+2025-03-15T14:12:25.804Z [debug] [kit] Found 0 kits in directory /mnt/c/Users/goaoc/AppData/Local/Programs/Microsoft VS Code/bin
+2025-03-15T14:12:25.804Z [debug] [kit] Found 0 kits in directory /mnt/c/Users/goaoc/AppData/Local/Programs/Python/Python313/Scripts
+2025-03-15T14:12:25.804Z [debug] [kit] Found 0 kits in directory /mnt/c/Users/goaoc/AppData/Local/Programs/Python/Launcher
+2025-03-15T14:12:25.807Z [debug] [kit] Found 0 kits in directory /mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path
+2025-03-15T14:12:25.808Z [debug] [kit] Found 0 kits in directory /mnt/c/Users/goaoc/AppData/Local/Microsoft/WindowsApps
+2025-03-15T14:12:25.969Z [debug] [kit] Found 0 kits in directory /mnt/c/Windows/system32
+2025-03-15T14:12:25.970Z [debug] [kit] Found 0 kits in directory /mnt/c/Users/goaoc/AppData/Roaming/npm
+2025-03-15T14:12:25.984Z [debug] [kit] Detected GCC compiler: /bin/x86_64-linux-gnu-gcc-11
+2025-03-15T14:12:25.988Z [debug] [kit] Detected GCC compiler: /bin/x86_64-linux-gnu-gcc
+2025-03-15T14:12:25.992Z [debug] [kit] Detected GCC compiler: /bin/gcc-11
+2025-03-15T14:12:25.996Z [debug] [kit] Detected GCC compiler: /bin/gcc
+2025-03-15T14:12:25.999Z [debug] [kit] Detected GCC compiler: /bin/c99-gcc
+2025-03-15T14:12:26.003Z [debug] [kit] Detected GCC compiler: /bin/c89-gcc
+2025-03-15T14:12:26.006Z [debug] [kit] Detected GCC compiler: /usr/bin/x86_64-linux-gnu-gcc-11
+2025-03-15T14:12:26.010Z [debug] [kit] Detected GCC compiler: /usr/bin/x86_64-linux-gnu-gcc
+2025-03-15T14:12:26.014Z [debug] [kit] Detected GCC compiler: /usr/bin/gcc-11
+2025-03-15T14:12:26.017Z [debug] [kit] Detected GCC compiler: /usr/bin/gcc
+2025-03-15T14:12:26.021Z [debug] [kit] Detected GCC compiler: /usr/bin/c99-gcc
+2025-03-15T14:12:26.024Z [debug] [kit] Detected GCC compiler: /usr/bin/c89-gcc
+2025-03-15T14:12:26.034Z [debug] [kit] Detected GCC compiler: /mnt/c/winlibs/mingw64/bin/x86_64-w64-mingw32-gcc.exe
+2025-03-15T14:12:26.042Z [debug] [kit] Detected GCC compiler: /mnt/c/winlibs/mingw64/bin/x86_64-w64-mingw32-gcc-14.2.0.exe
+2025-03-15T14:12:26.049Z [debug] [kit] Detected GCC compiler: /mnt/c/winlibs/mingw64/bin/gcc.exe
+2025-03-15T14:12:26.050Z [debug] [kit] Testing GCC binary: /bin/c99-gcc
+2025-03-15T14:12:26.050Z [info] [proc] Executing command: /bin/c99-gcc -v
+2025-03-15T14:12:26.057Z [debug] [kit] Testing GCC binary: /bin/c89-gcc
+2025-03-15T14:12:26.057Z [info] [proc] Executing command: /bin/c89-gcc -v
+2025-03-15T14:12:26.064Z [debug] [kit] Testing GCC binary: /usr/bin/c99-gcc
+2025-03-15T14:12:26.064Z [info] [proc] Executing command: /usr/bin/c99-gcc -v
+2025-03-15T14:12:26.070Z [debug] [kit] Testing GCC binary: /usr/bin/c89-gcc
+2025-03-15T14:12:26.071Z [info] [proc] Executing command: /usr/bin/c89-gcc -v
+2025-03-15T14:12:26.082Z [debug] [kit] Detected GCC compiler: /usr/bin/c99-gcc
+2025-03-15T14:12:26.086Z [debug] [kit] Detected GCC compiler: /bin/c89-gcc
+2025-03-15T14:12:26.089Z [debug] [kit] Detected GCC compiler: /bin/c99-gcc
+2025-03-15T14:12:26.090Z [debug] [kit] Testing GCC binary: /mnt/c/winlibs/mingw64/bin/x86_64-w64-mingw32-gcc.exe
+2025-03-15T14:12:26.090Z [info] [proc] Executing command: /mnt/c/winlibs/mingw64/bin/x86_64-w64-mingw32-gcc.exe -v
+2025-03-15T14:12:26.099Z [debug] [kit] Found 6 kits in directory /bin
+2025-03-15T14:12:26.105Z [debug] [kit] Detected GCC compiler: /usr/bin/c89-gcc
+2025-03-15T14:12:26.105Z [debug] [kit] Found 6 kits in directory /usr/bin
+2025-03-15T14:12:26.149Z [debug] [kit] Detected GCC compiler: /mnt/c/winlibs/mingw64/bin/x86_64-w64-mingw32-gcc.exe
+2025-03-15T14:12:26.152Z [debug] [kit] Found 3 kits in directory /mnt/c/winlibs/mingw64/bin
+2025-03-15T14:12:26.152Z [info] [kit] Found Kit (trusted): GCC 11.4.0 x86_64-linux-gnu
+2025-03-15T14:12:26.152Z [info] [kit] Found Kit (trusted): GCC 11.4.0 x86_64-linux-gnu
+2025-03-15T14:12:26.152Z [info] [kit] Found Kit (trusted): GCC 11.4.0 x86_64-linux-gnu
+2025-03-15T14:12:26.152Z [info] [kit] Found Kit (trusted): GCC 11.4.0 x86_64-linux-gnu
+2025-03-15T14:12:26.153Z [info] [kit] Found Kit (trusted): GCC 11.4.0 x86_64-linux-gnu
+2025-03-15T14:12:26.153Z [info] [kit] Found Kit (trusted): GCC 11.4.0 x86_64-linux-gnu
+2025-03-15T14:12:26.153Z [info] [kit] Found Kit (trusted): GCC 11.4.0 x86_64-linux-gnu
+2025-03-15T14:12:26.153Z [info] [kit] Found Kit (trusted): GCC 11.4.0 x86_64-linux-gnu
+2025-03-15T14:12:26.153Z [info] [kit] Found Kit (trusted): GCC 11.4.0 x86_64-linux-gnu
+2025-03-15T14:12:26.153Z [info] [kit] Found Kit (trusted): GCC 11.4.0 x86_64-linux-gnu
+2025-03-15T14:12:26.153Z [info] [kit] Found Kit (trusted): GCC 11.4.0 x86_64-linux-gnu
+2025-03-15T14:12:26.153Z [info] [kit] Found Kit (trusted): GCC 11.4.0 x86_64-linux-gnu
+2025-03-15T14:12:26.153Z [info] [kit] Found Kit (trusted): GCC 14.2.0 x86_64-w64-mingw32
+2025-03-15T14:12:26.153Z [info] [kit] Found Kit (trusted): GCC 14.2.0 x86_64-w64-mingw32
+2025-03-15T14:12:26.153Z [info] [kit] Found Kit (trusted): GCC 14.2.0 x86_64-w64-mingw32
+2025-03-15T14:12:26.154Z [debug] [kitsController] Saving kits to /home/aurelien/.local/share/CMakeTools/cmake-tools-kits.json
+2025-03-15T14:12:26.154Z [debug] [kitsController] Saving new kits to /home/aurelien/.local/share/CMakeTools/cmake-tools-kits.json
+2025-03-15T14:12:30.165Z [debug] [main] Not starting CMake driver: no kit selected
+2025-03-15T14:12:56.238Z [debug] [main] Not starting CMake driver: no kit selected
+2025-03-15T14:13:14.196Z [debug] [main] Not starting CMake driver: no kit selected
+2025-03-15T14:16:13.440Z [debug] [main] Not starting CMake driver: no kit selected
+2025-03-15T14:17:02.743Z [debug] [main] Not starting CMake driver: no kit selected
+2025-03-15T14:17:09.475Z [debug] [main] Not starting CMake driver: no kit selected
+2025-03-15T14:17:24.906Z [debug] [main] Not starting CMake driver: no kit selected
+2025-03-15T14:18:39.099Z [debug] [main] Not starting CMake driver: no kit selected
+2025-03-15T14:23:52.042Z [debug] [main] Not starting CMake driver: no kit selected
+2025-03-15T14:25:40.990Z [debug] [main] Not starting CMake driver: no kit selected
+2025-03-15T14:31:03.532Z [debug] [main] Not starting CMake driver: no kit selected
+2025-03-15T14:36:32.839Z [debug] [main] Not starting CMake driver: no kit selected
+2025-03-15T14:36:39.036Z [debug] [main] Not starting CMake driver: no kit selected
+2025-03-15T14:45:58.907Z [debug] [main] Not starting CMake driver: no kit selected
+2025-03-15T15:11:24.316Z [debug] [main] Not starting CMake driver: no kit selected
+2025-03-15T15:12:29.806Z [debug] [main] Not starting CMake driver: no kit selected
+2025-03-15T15:14:02.431Z [debug] [main] Not starting CMake driver: no kit selected
+2025-03-15T15:14:35.689Z [debug] [main] Not starting CMake driver: no kit selected
+2025-03-15T15:17:01.117Z [debug] [main] Not starting CMake driver: no kit selected
+2025-03-15T15:17:21.776Z [debug] [main] Not starting CMake driver: no kit selected
+2025-03-15T15:17:45.366Z [debug] [main] Not starting CMake driver: no kit selected
+2025-03-15T15:18:31.260Z [debug] [main] Not starting CMake driver: no kit selected
+2025-03-15T15:18:59.596Z [debug] [main] Not starting CMake driver: no kit selected
+2025-03-15T15:23:43.736Z [debug] [main] Not starting CMake driver: no kit selected
+2025-03-15T15:24:00.438Z [debug] [main] Not starting CMake driver: no kit selected
+2025-03-15T15:24:31.244Z [debug] [main] Not starting CMake driver: no kit selected
+2025-03-15T15:24:46.191Z [debug] [main] Not starting CMake driver: no kit selected
+2025-03-15T15:39:30.562Z [debug] [main] Not starting CMake driver: no kit selected

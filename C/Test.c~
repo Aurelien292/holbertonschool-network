@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main ()
+{
+  int premier = 0;
+  int deuxieme = 0;
+  int resultat = 0 ;
+  
+  printf ("Donne moi le premier chiffre !\n");
+  scanf ("%d" ,&premier);
+  printf (" Le premier chiffre est %d.\n" , premier);
+
+  printf ("Donne moi le deuxieme chiffre !\n");
+  scanf ("%d" ,&deuxieme);
+  printf (" Le deuxieme chiffre est %d.\n" , deuxieme );
+
+  int resultat (int premier , int deuxieme)
+  {
+    return premier + deuxieme ;
+  } 
+  
+  printf ("Le premier chiffre %d le deuxieme chiffre %d la somme des deux %d/n ", premier, deuxieme, resultat);
+  
+
+  
+  
+
+return 0;
+
+}
