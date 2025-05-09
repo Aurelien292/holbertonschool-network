@@ -1,2 +1,2 @@
-#!/bin/bash
+#!/usr/bin/env bash
 sudo lsof -i -nP -sTCP:LISTEN
