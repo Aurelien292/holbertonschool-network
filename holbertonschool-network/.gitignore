@@ -1,8 +1,0 @@
-# Ignorer les fichiers liés à VS Code Server
-.vscode-server/
-.vscode-server/bin/*/node
-.vscode-server/data/CachedExtensionVSIXs/ms-vscode.cpptools-*
-.vscode-server/extensions/ms-vscode.cpptools-*/*/clang-tidy
-.cache/vscode-cpptools/
-# Ignorer les fichiers de cache de vscode-cpptools
-.cache/vscode-cpptools/
