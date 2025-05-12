@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# écoute sur le port 98 en local (localhost)
+
+# Port sur lequel écouter
+PORT=98
+
+# Écoute sur localhost et le port 98
+echo "Écoute sur localhost:$PORT..."
+
+# Utilise netcat pour écouter sur le port spécifié et gérer les connexions telnet
+while true; do
+  nc -l 127.0.0.1 $PORT | telnet
+done
