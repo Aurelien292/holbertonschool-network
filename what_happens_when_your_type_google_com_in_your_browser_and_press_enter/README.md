@@ -37,19 +37,24 @@ C’est l’URL complète à laquelle la requête est envoyée. Le __https://__ 
 
 __Request Method__
 
+```
 GET
+```
 
 Il s’agit d’une requête HTTP GET, qui signifie que le navigateur demande simplement une ressource
 
 __Status Code__
 
+```
 200 OK
+```
 
 Cela indique que le serveur a répondu avec succès à la requête
 
 __Remote Address__
-
+```
 142.251.37.227:443
+```
 
 *__IP__* : C’est l’adresse du serveur Google qui a traité ta requête.
 
