@@ -146,6 +146,7 @@ Ce qu’il fait concrètement :
 * Il renvoie des __contenus statiques__ : pages HTML, images, fichiers CSS ou JavaScript.
 
 * Si la demande nécessite un traitement plus complexe (contenu personnalisé, données utilisateur...), __il transmet la requête à un serveur applicatif__.
+* 
 ![image](images/bandeau.png)
 ### 7. Application server
 
@@ -158,6 +159,7 @@ Un __serveur d’application__ est un logiciel qui exécute la logique métier d
 * Gère la logique métier (calculs, règles, traitements spécifiques),
 
 * Se connecte à une base de données pour lire ou enregistrer des informations.
+* 
 ![image](images/bandeau.png)
 ### 8. Database
 
