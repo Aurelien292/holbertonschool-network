@@ -14,6 +14,7 @@
 6. Web server
 7. Application server
 8. Database
+  
 ![image](images/bandeau.png)
 
 
