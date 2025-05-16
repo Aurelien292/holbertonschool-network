@@ -113,6 +113,7 @@ La sécurité d’HTTPS repose sur un protocole de chiffrement appelé SSL ou pl
 - Chiffre les données échangées entre ton navigateur et le serveur.
 
 - Vérifie l’identité du serveur grâce à un certificat numérique.
+
 ![image](images/bandeau.png)
 ### 5. Load-balancer 
 
