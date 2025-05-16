@@ -127,7 +127,7 @@ Il agit comme un répartiteur de demandes pour assurer que :
 
 Exemple : 
 via le site https://dnschecker.org/#A/www.google.com on peut observer les differentes ip données par google 
-![image](images/Load balancer.png)
+![image](images/Load_balancer.png)
 
 Via Vscode : 
 changement de l'ip donné pas google 
