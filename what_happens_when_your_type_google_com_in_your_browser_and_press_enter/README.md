@@ -1,9 +1,9 @@
-coming soon ![image](images/google.jpg)
+![image](images/google.jpg)
 
 # What happens when you type google.com in your browser and press Enter
 
 
-### Cheminement de la requete 
+### Query path 
 
 ![image](images/bandeau.png)
 1. DNS request
@@ -22,17 +22,17 @@ coming soon ![image](images/google.jpg)
 
 ### 1. DNS request 
 
- Le navigateur a envoyé une requête DNS pour résoudre le nom de domaine www.google.fr en une adresse IP, ici :
+ The browser sent a DNS request to resolve the domain name www.google.fr to an IP address, here:
 
 ![image](images/DNS.png)
 
-### Explication
+### Explanation
 
 __Request URL__
 
 " https://www.google.fr/ "
 
-C’est l’URL complète à laquelle la requête est envoyée. Le __https://__ indique que la connexion est sécurisée via TLS/SSL.
+This is the full URL to which the request is sent. The __https://__ indicates that the connection is secured via TLS/SSL.
 
 
 __Request Method__
@@ -41,7 +41,7 @@ __Request Method__
 GET
 ```
 
-Il s’agit d’une requête HTTP GET, qui signifie que le navigateur demande simplement une ressource
+This is an HTTP GET request, which means the browser is simply requesting a resource
 
 __Status Code__
 
@@ -49,60 +49,62 @@ __Status Code__
 200 OK
 ```
 
-Cela indique que le serveur a répondu avec succès à la requête
+This indicates that the server successfully responded to the request
 
 __Remote Address__
 ```
 142.251.37.227:443
 ```
 
-*__IP__* : C’est l’adresse du serveur Google qui a traité ta requête.
+*__IP__* : This is the address of the Google server that processed your request.
 
-*__Port 443__* : Port utilisé pour les connexions HTTPS sécurisées (TLS).
+*__Port 443__* : Port used for secure HTTPS (TLS) connections.
 ![image](images/bandeau.png)
 ### 2. TCP/IP
 
 #### Introduction :
-TCP/IP (Transmission Control Protocol / Internet Protocol) est un ensemble de protocoles utilisés pour permettre la communication entre des appareils sur Internet ou un réseau privé. Ces protocoles régissent comment les données sont envoyées et reçues entre différents systèmes.
+TCP/IP (Transmission Control Protocol / Internet Protocol) is a set of protocols used to enable communication between devices over the Internet or a private network. These protocols govern how data is sent and received between different systems.
 
 #### protocole IP (Internet Protocol) :
-* S’occupe de l’adressage et de l’acheminement des paquets de données.
+* Handles addressing and routing of data packets.
 
-* Chaque machine connectée à Internet a une adresse IP unique (ex. : 142.251.37.227 pour Google).
+* Each machine connected to the Internet has a unique IP address (e.g. 142.251.37.227 for Google).
 
-* IP divise les données en petits paquets, chacun avec l’adresse de destination.
+* IP divides data into small packets, each with the destination address.
 
-* Les paquets peuvent prendre des chemins différents à travers le réseau pour atteindre leur destination.
+* Packets can take different paths through the network to reach their destination.
 
-* IP est un protocole non fiable : il n’assure ni l’ordre des paquets ni leur livraison garantie.
+* IP is an unreliable protocol: it does not ensure packet order or guaranteed delivery.
 
 #### TCP (Transmission Control Protocol) :
 
-Il établit une connexion fiable entre le client (navigateur) et le serveur.
+It establishes a reliable connection between the client (browser) and the server.
 
 #### Fonctionnalités :
 
-*__Séquencement__* : remet les paquets dans le bon ordre.
+*__Sequencing__* : puts the packets in the correct order.
 
-*__Contrôle d’erreurs__* : vérifie que les données sont arrivées correctement.
+*__Error control__* : checks that the data arrived correctly.
 
-*__Réémission :__* renvoie les paquets perdus.
+*__Reissue:__* resends lost packets.
 
-*__Contrôle de flux :__* évite de surcharger l’autre partie.
+*__Flow control :__* avoids overloading the other party.
 ![image](images/bandeau.png)
 ### 3. Firewall
 
-Est un dispositif de sécurité réseau qui sert à contrôler et filtrer les communications réseau (entrantes et sortantes) entre un réseau interne et l'extérieur (Internet) .Il sert de barrière entre un réseau sécurisé et un réseau non sécurisé (comme Internet), et il est conçu pour empêcher les accès non autorisés tout en permettant les connexions légitimes.
+Is a network security device that is used to control and filter network communications (inbound and outbound) between an internal network and the outside (Internet). It serves as a barrier between a secure network and an unsecured network (such as the Internet), and is designed to prevent unauthorized access while allowing legitimate connections.
 
-__Règles de filtrage :__
-Le pare-feu applique des règles pré-définies (basées sur des critères comme les adresses IP, les ports, les protocoles, etc.) pour filtrer le trafic. Ces règles peuvent être configurées pour bloquer ou autoriser certains types de connexions.
+__Filtering rules :__
+The firewall applies predefined rules (based on criteria such as IP addresses, ports, protocols, etc.) to filter traffic. These rules can be configured to block or allow certain types of connections.
+
 ![image](images/bandeau.png)
+
 ### 4. HTTPS/SSL
 
-*HTTPS* signifie *__HyperText Transfer Protocol Secure__*.
-C’est la version sécurisée du protocole HTTP, qui est utilisé pour transférer des pages web entre un serveur et un navigateur.
+*HTTPS* means *__HyperText Transfer Protocol Secure__*.
+It is the secure version of the HTTP protocol, which is used to transfer web pages between a server and a browser.
 
-La sécurité d’HTTPS repose sur un protocole de chiffrement appelé SSL ou plus précisément TLS (la version moderne).
+HTTPS security relies on an encryption protocol called SSL or more precisely TLS (the modern version).
 
 #### SSL/TLS
 
@@ -110,28 +112,28 @@ La sécurité d’HTTPS repose sur un protocole de chiffrement appelé SSL ou pl
 
 * TLS = Transport Layer Security (remplace SSL, plus sécurisé)
 
-- Chiffre les données échangées entre ton navigateur et le serveur.
+- Encrypts the data exchanged between your browser and the server.
 
-- Vérifie l’identité du serveur grâce à un certificat numérique.
+- Verifies the server's identity using a digital certificate.
 
 ![image](images/bandeau.png)
 ### 5. Load-balancer 
 
-Un load balancer est un composant réseau ou logiciel qui a pour mission de répartir intelligemment le trafic entre plusieurs serveurs appelé aussi __( Scalabilité horizontale )__.
-Il agit comme un répartiteur de demandes pour assurer que :
+A load balancer is a network or software component whose mission is to intelligently distribute traffic between multiple servers, also known as horizontal scalability.
+It acts as a request distributor to ensure that:
 
-- Aucun serveur n’est surchargé,
+- No server is overloaded
 
-- Le système reste rapide, disponible, et fiable,
+-The system remains fast, available, and reliable
 
-- L’utilisateur obtient une réponse rapide et continue même si un serveur tombe en panne.
+- The user gets a fast and continuous response even if a server goes down.
 
 Exemple : 
-via le site https://dnschecker.org/#A/www.google.com on peut observer les differentes ip données par google 
+via the site https://dnschecker.org/#A/www.google.com you can observe the different IP addresses given by Google
 ![image](images/Load_balancer.png)
 
 Via Vscode : 
-changement de l'ip donné pas google 
+change of the IP given by Google
 
 ![image](images/IP1.png)
 ![image](images/IP2.png)
@@ -139,35 +141,37 @@ changement de l'ip donné pas google
 ![image](images/bandeau.png)
 ### 6. Web server
 
-Un __serveur web__ est un logiciel, comme Nginx ou Apache, chargé de recevoir les requêtes envoyées par un navigateur et d’y répondre en envoyant les ressources nécessaires pour afficher un site web.
-Ce qu’il fait concrètement :
+A __web server__ is a software program, such as Nginx or Apache, responsible for receiving requests sent by a browser and responding by sending the resources needed to display a website. What it does specifically:
 
-* Il traite les requêtes HTTP/HTTPS provenant des utilisateurs.
+* It handles HTTP/HTTPS requests from users.
 
-* Il renvoie des __contenus statiques__ : pages HTML, images, fichiers CSS ou JavaScript.
+* It returns __static content__: HTML pages, images, CSS or JavaScript files.
 
-* Si la demande nécessite un traitement plus complexe (contenu personnalisé, données utilisateur...), __il transmet la requête à un serveur applicatif__.
-* 
+* If the request requires more complex processing (personalized content, user data, etc.), __it forwards the request to an application server__.
+
 ![image](images/bandeau.png)
 ### 7. Application server
 
-Un __serveur d’application__ est un logiciel qui exécute la logique métier d’une application web. Contrairement au serveur web, qui sert des fichiers statiques, le serveur d’application traite les __requêtes dynamiques__, interagit avec les bases de données, et génère des réponses personnalisées pour chaque utilisateur.
+An __application server__ is software that executes the business logic of a web application. Unlike the web server, which serves static files, the application server handles __dynamic requests__, interacts with databases, and generates personalized responses for each user.
 
-* Traite __les demandes dynamiques__ des utilisateurs (ex. : formulaire, login, recherche…),
+* Processes __dynamic requests__ from users (e.g.: form, login, search, etc.),
 
-* Exécute le code de l'application (PHP, Java, Python, Node.js, etc.),
+* Runs application code (PHP, Java, Python, Node.js, etc.),
 
-* Gère la logique métier (calculs, règles, traitements spécifiques),
+* Manages business logic (calculations, rules, specific processing),
 
-* Se connecte à une base de données pour lire ou enregistrer des informations.
-* 
+* Connects to a database to read or save information.
+
 ![image](images/bandeau.png)
+
 ### 8. Database
 
-Une base de données est un système qui permet de stocker, organiser, et accéder aux données utilisées par une application. Elle est essentielle pour mémoriser des informations comme les comptes utilisateurs, les produits, les messages, etc.
+A database is a system for storing, organizing, and accessing data used by an application. It is essential for storing information such as user accounts, products, messages, and so on.
+
 ![image](images/bandeau.png)
+
 ### Conclusion 
 
-Taper www.google.com dans votre navigateur déclenche une série d’étapes techniques invisibles : résolution DNS, connexion sécurisée via HTTPS, filtrage par un pare-feu, répartition du trafic par un load-balancer, traitement par un serveur web, un serveur applicatif, puis consultation d’une base de données.
+Typing www.google.com into your browser triggers a series of invisible technical steps: DNS resolution, secure connection via HTTPS, filtering by a firewall, traffic distribution by a load balancer, processing by a web server, an application server, and then consultation of a database.
 
-En quelques millisecondes, tous ces composants travaillent ensemble pour vous afficher une page web, de façon rapide, sécurisée et fiable.
+In milliseconds, all these components work together to display a web page to you, quickly, securely and reliably.
